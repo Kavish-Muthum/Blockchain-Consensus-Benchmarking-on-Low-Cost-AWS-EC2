@@ -1,0 +1,86 @@
+{
+  "instance_type": "t4g.2xlarge",
+  "workload": "pow",
+  "instance_id": "i-0555d26cd56a6ca02",
+  "public_ip": "34.224.26.127",
+  "measurement_start": "2025-11-20T20:25:27.384744",
+  "measurement_duration_seconds": 300,
+  "workload_output": {
+    "work_unit": "hash",
+    "total_count": 162809595,
+    "measurement_duration_seconds": 300.00000166893005,
+    "hashes_per_second": 542698.646980913,
+    "difficulty_target": "00000",
+    "block_template": "BlockTemplate_2024_Benchmark_Consensus_Research",
+    "measurement_start": 1763670358.5015485,
+    "measurement_end": 1763670658.5015502
+  },
+  "metrics": {
+    "cloudwatch": [
+      {
+        "timestamp": "2025-11-20T20:25:00+00:00",
+        "metric": "CPUUtilization",
+        "average": 3.843591793232081,
+        "maximum": 3.843591793232081,
+        "unit": "Percent"
+      },
+      {
+        "timestamp": "2025-11-20T20:25:00+00:00",
+        "metric": "NetworkIn",
+        "average": 81426.0,
+        "maximum": 81426.0,
+        "unit": "Bytes"
+      },
+      {
+        "timestamp": "2025-11-20T20:25:00+00:00",
+        "metric": "NetworkOut",
+        "average": 235112.0,
+        "maximum": 235112.0,
+        "unit": "Bytes"
+      },
+      {
+        "timestamp": "2025-11-20T20:25:00+00:00",
+        "metric": "CPUCreditUsage",
+        "average": 0.7097010333333333,
+        "maximum": 0.7097010333333333,
+        "unit": "Count"
+      },
+      {
+        "timestamp": "2025-11-20T20:25:00+00:00",
+        "metric": "CPUCreditBalance",
+        "average": 5.630245633333334,
+        "maximum": 5.630245633333334,
+        "unit": "Count"
+      }
+    ],
+    "gpu": [],
+    "fpga": [],
+    "memory": {
+      "total_mb": 31681,
+      "used_mb": 203,
+      "free_mb": 31074,
+      "usage_percent": 0.6407626021905874
+    },
+    "average_cpu_percent": 3.843591793232081,
+    "max_cpu_percent": 3.843591793232081,
+    "memory_usage_percent": 0.6407626021905874,
+    "memory_used_mb": 203,
+    "memory_total_mb": 31681
+  },
+  "energy_joules": 276.7386091127098,
+  "work_units_completed": 162809595,
+  "throughput_work_per_sec": 542698.65,
+  "efficiency_joules_per_work": 1.6997684265028102e-06,
+  "instance_config": {
+    "architecture": "arm64",
+    "category": "ARM",
+    "vCPU": 8,
+    "memory_gb": 32,
+    "network_performance": "Up to 5 Gigabit",
+    "ami_name_pattern": "al2023-ami-*-arm64",
+    "ami_owner": "amazon",
+    "estimated_tdp_watts": 24,
+    "hourly_cost_usd": 0.2688,
+    "notes": "Matches t3.2xlarge exactly (8 vCPU, 32GB RAM) - perfect ARM vs x86 comparison. Burstable performance instance."
+  }
+}

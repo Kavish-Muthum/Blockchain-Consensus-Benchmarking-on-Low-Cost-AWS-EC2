@@ -1,0 +1,58 @@
+{
+  "region": "us-east-1",
+  "instances": {
+    "t4g.2xlarge": {
+      "architecture": "arm64",
+      "category": "ARM",
+      "vCPU": 8,
+      "memory_gb": 32,
+      "network_performance": "Up to 5 Gigabit",
+      "ami_name_pattern": "al2023-ami-*-arm64",
+      "ami_owner": "amazon",
+      "estimated_tdp_watts": 24,
+      "hourly_cost_usd": 0.2688,
+      "notes": "Matches t3.2xlarge exactly (8 vCPU, 32GB RAM) - perfect ARM vs x86 comparison. Burstable performance instance."
+    },
+    "t3.2xlarge": {
+      "architecture": "x86_64",
+      "category": "x86",
+      "vCPU": 8,
+      "memory_gb": 32,
+      "network_performance": "Up to 5 Gigabit",
+      "ami_name_pattern": "al2023-ami-*-x86_64",
+      "ami_owner": "amazon",
+      "estimated_tdp_watts": 28,
+      "hourly_cost_usd": 0.3328,
+      "notes": "Matches t4g.2xlarge exactly (8 vCPU, 32GB RAM) - perfect ARM vs x86 comparison. Burstable performance instance."
+    },
+    "g4dn.xlarge": {
+      "architecture": "x86_64",
+      "category": "GPU",
+      "vCPU": 4,
+      "memory_gb": 16,
+      "gpu_count": 1,
+      "gpu_type": "NVIDIA T4",
+      "network_performance": "Up to 25 Gigabit",
+      "ami_name_pattern": "Deep Learning Base AMI (Ubuntu 20.04)*",
+      "ami_owner": "amazon",
+      "estimated_tdp_watts": 200,
+      "hourly_cost_usd": 0.526,
+      "notes": "NVIDIA T4 GPU with 16GB GPU memory"
+    },
+    "f1.2xlarge": {
+      "architecture": "x86_64",
+      "category": "FPGA",
+      "vCPU": 8,
+      "memory_gb": 122,
+      "fpga_count": 1,
+      "fpga_type": "Xilinx Virtex UltraScale+ VU9P",
+      "network_performance": "Up to 10 Gigabit",
+      "ami_name_pattern": "*FPGA Developer AMI*",
+      "ami_owner": "679593333241",
+      "estimated_tdp_watts": 150,
+      "hourly_cost_usd": 1.65,
+      "notes": "Requires FPGA Developer AMI and AFI (Amazon FPGA Image)"
+    }
+  }
+}
+

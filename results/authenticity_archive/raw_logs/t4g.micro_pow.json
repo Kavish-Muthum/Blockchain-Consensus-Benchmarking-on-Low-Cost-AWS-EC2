@@ -1,0 +1,33 @@
+{
+  "instance_type": "t4g.micro",
+  "workload": "pow",
+  "instance_id": "i-0175cc718c01f1a54",
+  "public_ip": "35.173.129.40",
+  "measurement_start": "2025-11-20T18:06:50.490438",
+  "measurement_duration_seconds": 300,
+  "workload_output": {},
+  "metrics": {
+    "cloudwatch": [],
+    "gpu": [],
+    "fpga": [],
+    "memory": {},
+    "average_cpu_percent": 0,
+    "max_cpu_percent": 0
+  },
+  "energy_joules": 0.0,
+  "work_units_completed": 0,
+  "throughput_work_per_sec": 0.0,
+  "efficiency_joules_per_work": Infinity,
+  "instance_config": {
+    "architecture": "arm64",
+    "category": "ARM",
+    "vCPU": 2,
+    "memory_gb": 1,
+    "network_performance": "Up to 5 Gigabit",
+    "ami_name_pattern": "al2023-ami-*-arm64",
+    "ami_owner": "amazon",
+    "estimated_tdp_watts": 5,
+    "hourly_cost_usd": 0.0084,
+    "notes": "Burstable performance instance with CPU credits"
+  }
+}

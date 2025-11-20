@@ -1,0 +1,41 @@
+{
+  "instance_type": "t4g.2xlarge",
+  "workload": "pow_gpu",
+  "instance_id": "i-0555d26cd56a6ca02",
+  "public_ip": "34.224.26.127",
+  "measurement_start": "2025-11-20T20:53:08.547910",
+  "measurement_duration_seconds": 300,
+  "workload_output": {},
+  "metrics": {
+    "cloudwatch": [],
+    "gpu": [],
+    "fpga": [],
+    "memory": {
+      "total_mb": 31681,
+      "used_mb": 192,
+      "free_mb": 31080,
+      "usage_percent": 0.6060414759635113
+    },
+    "average_cpu_percent": 0,
+    "max_cpu_percent": 0,
+    "memory_usage_percent": 0.6060414759635113,
+    "memory_used_mb": 192,
+    "memory_total_mb": 31681
+  },
+  "energy_joules": 0.0,
+  "work_units_completed": 0,
+  "throughput_work_per_sec": 0.0,
+  "efficiency_joules_per_work": Infinity,
+  "instance_config": {
+    "architecture": "arm64",
+    "category": "ARM",
+    "vCPU": 8,
+    "memory_gb": 32,
+    "network_performance": "Up to 5 Gigabit",
+    "ami_name_pattern": "al2023-ami-*-arm64",
+    "ami_owner": "amazon",
+    "estimated_tdp_watts": 24,
+    "hourly_cost_usd": 0.2688,
+    "notes": "Matches t3.2xlarge exactly (8 vCPU, 32GB RAM) - perfect ARM vs x86 comparison. Burstable performance instance."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "instance_type": "t4g.micro",
+  "workload": "pos",
+  "instance_id": "i-03f0803358cfa54d0",
+  "public_ip": "54.226.218.180",
+  "measurement_start": "2025-11-20T17:53:01.519439",
+  "measurement_duration_seconds": 300,
+  "workload_output": {
+    "work_unit": "signature",
+    "count": 1295996,
+    "timestamp": 1763661425.4532263,
+    "algorithm": "ed25519",
+    "key_size": 256,
+    "elapsed_seconds": 213.01734137535095,
+    "signatures_per_second": 6083.992935187222
+  },
+  "metrics": {
+    "cloudwatch": [],
+    "gpu": [],
+    "fpga": [],
+    "memory": {
+      "total_mb": 912,
+      "used_mb": 134,
+      "free_mb": 372,
+      "usage_percent": 14.692982456140353
+    },
+    "average_cpu_percent": 0,
+    "max_cpu_percent": 0,
+    "memory_usage_percent": 14.692982456140353,
+    "memory_used_mb": 134,
+    "memory_total_mb": 912
+  },
+  "energy_joules": 0.0,
+  "work_units_completed": 0,
+  "throughput_work_per_sec": 0.0,
+  "efficiency_joules_per_work": Infinity,
+  "instance_config": {
+    "architecture": "arm64",
+    "category": "ARM",
+    "vCPU": 2,
+    "memory_gb": 1,
+    "network_performance": "Up to 5 Gigabit",
+    "ami_name_pattern": "al2023-ami-*-arm64",
+    "ami_owner": "amazon",
+    "estimated_tdp_watts": 5,
+    "hourly_cost_usd": 0.0084,
+    "notes": "Burstable performance instance with CPU credits"
+  }
+}

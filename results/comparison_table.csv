@@ -1,0 +1,5 @@
+Workload,ARM Throughput (work/sec),x86 Throughput (work/sec),ARM Energy (Joules),x86 Energy (Joules),ARM Efficiency (J/work),x86 Efficiency (J/work),ARM Cost (USD/work),x86 Cost (USD/work),ARM per vCPU (work/sec/vCPU),x86 per vCPU (work/sec/vCPU)
+POW,"542,699","572,677","2,353.7","2,524.6",1.45e-05,1.47e-05,1.38e-10,1.61e-10,"67,837.3","71,584.6"
+POS,"6,081","6,549","2,160.0","2,520.0",1.18e-03,1.28e-03,1.23e-08,1.41e-08,760.1,818.7
+BFT,"174,816","138,137","2,160.0","2,520.0",4.12e-05,6.08e-05,4.27e-10,6.69e-10,"21,852.0","17,267.2"
+ZK,"5,255","6,008","2,160.0","2,520.0",1.37e-03,1.40e-03,1.42e-08,1.54e-08,656.9,751.0

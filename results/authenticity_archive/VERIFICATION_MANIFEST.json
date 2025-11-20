@@ -1,0 +1,359 @@
+{
+  "archive_created": "2025-11-20T15:15:45.337165",
+  "source_directory": "results",
+  "archive_directory": "results/authenticity_archive",
+  "raw_logs": [
+    {
+      "file": "t3.micro_pow.json",
+      "instance_id": "i-04bbaa19d84b0e26a",
+      "public_ip": "18.206.92.8",
+      "instance_type": "t3.micro",
+      "workload": "pow",
+      "timestamp": "2025-11-20T18:06:50.899449",
+      "work_units_completed": 0,
+      "throughput": 0.0,
+      "has_cloudwatch": false,
+      "has_workload_output": false
+    },
+    {
+      "file": "t3.2xlarge_zk.json",
+      "instance_id": "i-005c67216c4dd87d3",
+      "public_ip": "44.222.171.117",
+      "instance_type": "t3.2xlarge",
+      "workload": "zk",
+      "timestamp": "2025-11-20T20:42:04.466388",
+      "work_units_completed": 1802360,
+      "throughput": 6007.866666666667,
+      "has_cloudwatch": false,
+      "has_workload_output": true
+    },
+    {
+      "file": "t4g.2xlarge_bft.json",
+      "instance_id": "i-0555d26cd56a6ca02",
+      "public_ip": "34.224.26.127",
+      "instance_type": "t4g.2xlarge",
+      "workload": "bft",
+      "timestamp": "2025-11-20T20:36:33.012800",
+      "work_units_completed": 52444791,
+      "throughput": 174815.97,
+      "has_cloudwatch": false,
+      "has_workload_output": true
+    },
+    {
+      "file": "t4g.micro_pow.json",
+      "instance_id": "i-0175cc718c01f1a54",
+      "public_ip": "35.173.129.40",
+      "instance_type": "t4g.micro",
+      "workload": "pow",
+      "timestamp": "2025-11-20T18:06:50.490438",
+      "work_units_completed": 0,
+      "throughput": 0.0,
+      "has_cloudwatch": false,
+      "has_workload_output": false
+    },
+    {
+      "file": "t4g.2xlarge_pow.json",
+      "instance_id": "i-0555d26cd56a6ca02",
+      "public_ip": "34.224.26.127",
+      "instance_type": "t4g.2xlarge",
+      "workload": "pow",
+      "timestamp": "2025-11-20T20:25:27.384744",
+      "work_units_completed": 162809595,
+      "throughput": 542698.65,
+      "has_cloudwatch": true,
+      "has_workload_output": true
+    },
+    {
+      "file": "t3.2xlarge_bft.json",
+      "instance_id": "i-005c67216c4dd87d3",
+      "public_ip": "44.222.171.117",
+      "instance_type": "t3.2xlarge",
+      "workload": "bft",
+      "timestamp": "2025-11-20T20:36:32.615516",
+      "work_units_completed": 41441193,
+      "throughput": 138137.31,
+      "has_cloudwatch": false,
+      "has_workload_output": true
+    },
+    {
+      "file": "t4g.2xlarge_zk_cloudzk.json",
+      "instance_id": "i-0555d26cd56a6ca02",
+      "public_ip": "34.224.26.127",
+      "instance_type": "t4g.2xlarge",
+      "workload": "zk_cloudzk",
+      "timestamp": "2025-11-20T20:47:36.753107",
+      "work_units_completed": 834159,
+      "throughput": 2780.53,
+      "has_cloudwatch": false,
+      "has_workload_output": true
+    },
+    {
+      "file": "t3.2xlarge_pow.json",
+      "instance_id": "i-005c67216c4dd87d3",
+      "public_ip": "44.222.171.117",
+      "instance_type": "t3.2xlarge",
+      "workload": "pow",
+      "timestamp": "2025-11-20T20:25:27.907423",
+      "work_units_completed": 171802959,
+      "throughput": 572676.53,
+      "has_cloudwatch": true,
+      "has_workload_output": true
+    },
+    {
+      "file": "t4g.2xlarge_zk.json",
+      "instance_id": "i-0555d26cd56a6ca02",
+      "public_ip": "34.224.26.127",
+      "instance_type": "t4g.2xlarge",
+      "workload": "zk",
+      "timestamp": "2025-11-20T20:42:04.829257",
+      "work_units_completed": 1576602,
+      "throughput": 5255.34,
+      "has_cloudwatch": false,
+      "has_workload_output": true
+    },
+    {
+      "file": "t3.micro_pos.json",
+      "instance_id": "i-0c89838a945ffe028",
+      "public_ip": "44.197.203.17",
+      "instance_type": "t3.micro",
+      "workload": "pos",
+      "timestamp": "2025-11-20T17:53:01.607169",
+      "work_units_completed": 0,
+      "throughput": 0.0,
+      "has_cloudwatch": false,
+      "has_workload_output": false
+    },
+    {
+      "file": "t4g.2xlarge_pos.json",
+      "instance_id": "i-0555d26cd56a6ca02",
+      "public_ip": "34.224.26.127",
+      "instance_type": "t4g.2xlarge",
+      "workload": "pos",
+      "timestamp": "2025-11-20T20:31:00.860976",
+      "work_units_completed": 1824153,
+      "throughput": 6080.51,
+      "has_cloudwatch": false,
+      "has_workload_output": true
+    },
+    {
+      "file": "t4g.micro_pos.json",
+      "instance_id": "i-03f0803358cfa54d0",
+      "public_ip": "54.226.218.180",
+      "instance_type": "t4g.micro",
+      "workload": "pos",
+      "timestamp": "2025-11-20T17:53:01.519439",
+      "work_units_completed": 0,
+      "throughput": 0.0,
+      "has_cloudwatch": false,
+      "has_workload_output": false
+    },
+    {
+      "file": "t4g.2xlarge_pow_gpu.json",
+      "instance_id": "i-0555d26cd56a6ca02",
+      "public_ip": "34.224.26.127",
+      "instance_type": "t4g.2xlarge",
+      "workload": "pow_gpu",
+      "timestamp": "2025-11-20T20:53:08.547910",
+      "work_units_completed": 0,
+      "throughput": 0.0,
+      "has_cloudwatch": false,
+      "has_workload_output": false
+    },
+    {
+      "file": "t3.2xlarge_pow_gpu.json",
+      "instance_id": "i-005c67216c4dd87d3",
+      "public_ip": "44.222.171.117",
+      "instance_type": "t3.2xlarge",
+      "workload": "pow_gpu",
+      "timestamp": "2025-11-20T20:53:08.446659",
+      "work_units_completed": 0,
+      "throughput": 0.0,
+      "has_cloudwatch": false,
+      "has_workload_output": false
+    },
+    {
+      "file": "t3.2xlarge_pos.json",
+      "instance_id": "i-005c67216c4dd87d3",
+      "public_ip": "44.222.171.117",
+      "instance_type": "t3.2xlarge",
+      "workload": "pos",
+      "timestamp": "2025-11-20T20:31:00.439403",
+      "work_units_completed": 1964782,
+      "throughput": 6549.2733333333335,
+      "has_cloudwatch": false,
+      "has_workload_output": true
+    },
+    {
+      "file": "t3.2xlarge_zk_cloudzk.json",
+      "instance_id": "i-005c67216c4dd87d3",
+      "public_ip": "44.222.171.117",
+      "instance_type": "t3.2xlarge",
+      "workload": "zk_cloudzk",
+      "timestamp": "2025-11-20T20:47:36.622040",
+      "work_units_completed": 875489,
+      "throughput": 2918.2966666666666,
+      "has_cloudwatch": false,
+      "has_workload_output": true
+    }
+  ],
+  "instances": {
+    "i-04bbaa19d84b0e26a": {
+      "instance_type": "t3.micro",
+      "public_ip": "18.206.92.8",
+      "workloads": [
+        "pow"
+      ],
+      "first_seen": "2025-11-20T18:06:50.899449",
+      "last_seen": "2025-11-20T18:06:50.899449"
+    },
+    "i-005c67216c4dd87d3": {
+      "instance_type": "t3.2xlarge",
+      "public_ip": "44.222.171.117",
+      "workloads": [
+        "zk",
+        "bft",
+        "pow",
+        "pow_gpu",
+        "pos",
+        "zk_cloudzk"
+      ],
+      "first_seen": "2025-11-20T20:25:27.907423",
+      "last_seen": "2025-11-20T20:53:08.446659"
+    },
+    "i-0555d26cd56a6ca02": {
+      "instance_type": "t4g.2xlarge",
+      "public_ip": "34.224.26.127",
+      "workloads": [
+        "bft",
+        "pow",
+        "zk_cloudzk",
+        "zk",
+        "pos",
+        "pow_gpu"
+      ],
+      "first_seen": "2025-11-20T20:25:27.384744",
+      "last_seen": "2025-11-20T20:53:08.547910"
+    },
+    "i-0175cc718c01f1a54": {
+      "instance_type": "t4g.micro",
+      "public_ip": "35.173.129.40",
+      "workloads": [
+        "pow"
+      ],
+      "first_seen": "2025-11-20T18:06:50.490438",
+      "last_seen": "2025-11-20T18:06:50.490438"
+    },
+    "i-0c89838a945ffe028": {
+      "instance_type": "t3.micro",
+      "public_ip": "44.197.203.17",
+      "workloads": [
+        "pos"
+      ],
+      "first_seen": "2025-11-20T17:53:01.607169",
+      "last_seen": "2025-11-20T17:53:01.607169"
+    },
+    "i-03f0803358cfa54d0": {
+      "instance_type": "t4g.micro",
+      "public_ip": "54.226.218.180",
+      "workloads": [
+        "pos"
+      ],
+      "first_seen": "2025-11-20T17:53:01.519439",
+      "last_seen": "2025-11-20T17:53:01.519439"
+    }
+  },
+  "workloads": {
+    "pow": {
+      "instance_types": [
+        "t3.2xlarge",
+        "t4g.micro",
+        "t3.micro",
+        "t4g.2xlarge"
+      ],
+      "total_benchmarks": 4,
+      "total_work_units": 334612554
+    },
+    "zk": {
+      "instance_types": [
+        "t3.2xlarge",
+        "t4g.2xlarge"
+      ],
+      "total_benchmarks": 2,
+      "total_work_units": 3378962
+    },
+    "bft": {
+      "instance_types": [
+        "t3.2xlarge",
+        "t4g.2xlarge"
+      ],
+      "total_benchmarks": 2,
+      "total_work_units": 93885984
+    },
+    "zk_cloudzk": {
+      "instance_types": [
+        "t3.2xlarge",
+        "t4g.2xlarge"
+      ],
+      "total_benchmarks": 2,
+      "total_work_units": 1709648
+    },
+    "pos": {
+      "instance_types": [
+        "t3.2xlarge",
+        "t4g.micro",
+        "t4g.2xlarge",
+        "t3.micro"
+      ],
+      "total_benchmarks": 4,
+      "total_work_units": 3788935
+    },
+    "pow_gpu": {
+      "instance_types": [
+        "t3.2xlarge",
+        "t4g.2xlarge"
+      ],
+      "total_benchmarks": 2,
+      "total_work_units": 0
+    }
+  },
+  "verification_data": {
+    "unique_instance_ids": 6,
+    "instance_ids": [
+      "i-005c67216c4dd87d3",
+      "i-0175cc718c01f1a54",
+      "i-03f0803358cfa54d0",
+      "i-04bbaa19d84b0e26a",
+      "i-0555d26cd56a6ca02",
+      "i-0c89838a945ffe028"
+    ],
+    "unique_public_ips": 6,
+    "public_ips": [
+      "18.206.92.8",
+      "34.224.26.127",
+      "35.173.129.40",
+      "44.197.203.17",
+      "44.222.171.117",
+      "54.226.218.180"
+    ],
+    "total_benchmarks": 16,
+    "benchmarks_with_work_output": 10,
+    "benchmarks_with_cloudwatch": 2,
+    "total_work_units_completed": 437376083,
+    "workloads_tested": [
+      "bft",
+      "pos",
+      "pow",
+      "pow_gpu",
+      "zk",
+      "zk_cloudzk"
+    ],
+    "instance_types_tested": [
+      "t3.2xlarge",
+      "t3.micro",
+      "t4g.2xlarge",
+      "t4g.micro"
+    ],
+    "first_benchmark": "2025-11-20T17:53:01.519439",
+    "last_benchmark": "2025-11-20T20:53:08.547910"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "created": "2025-11-20T15:15:45.346249",
+  "files": [
+    {
+      "file": "t3.2xlarge_bft.json",
+      "sha256": "6e27aec2f23ebdce09521cae58f4b9eb61b9caaa0b3dc251130c45f2caeb9d9f",
+      "size_bytes": 1501,
+      "modified": "2025-11-20T14:42:03.412869"
+    },
+    {
+      "file": "t3.2xlarge_pos.json",
+      "sha256": "e58f16e59796cd068955b3c190228bc49b036791a01361d1b0de87a59c4e555e",
+      "size_bytes": 1485,
+      "modified": "2025-11-20T14:36:31.431087"
+    },
+    {
+      "file": "t3.2xlarge_pow.json",
+      "sha256": "0b3cdaaeb341317bffc03e90283fad45453be47f0de1fd015f31a7d31a8d8bbf",
+      "size_bytes": 2550,
+      "modified": "2025-11-20T14:30:58.579805"
+    },
+    {
+      "file": "t3.2xlarge_pow_gpu.json",
+      "sha256": "b73f616b898b12a8ceaa0beabe67c56c0885a23c21daad6e6b42257c33a526a2",
+      "size_bytes": 1174,
+      "modified": "2025-11-20T14:54:10.378643"
+    },
+    {
+      "file": "t3.2xlarge_zk.json",
+      "sha256": "18e058967f351df2dc737ec8b842111e2cc7e192c64bb3d5f84bfc3d72177b4c",
+      "size_bytes": 1569,
+      "modified": "2025-11-20T14:47:35.284394"
+    },
+    {
+      "file": "t3.2xlarge_zk_cloudzk.json",
+      "sha256": "c07dede267b63f488607dc30c87b79a22b6f8ad720620622f86031d365df3bec",
+      "size_bytes": 1620,
+      "modified": "2025-11-20T14:53:07.416556"
+    },
+    {
+      "file": "t3.micro_pos.json",
+      "sha256": "cf47a049ab5359180a1c65e27d4d50bf828f18806a770959e7d3d5757168f690",
+      "size_bytes": 1327,
+      "modified": "2025-11-20T11:57:05.151695"
+    },
+    {
+      "file": "t3.micro_pow.json",
+      "sha256": "06a84c97ab2f91c3b3b8a0468180961714379a3a5c520afd27a8f6447ec559c5",
+      "size_bytes": 876,
+      "modified": "2025-11-20T12:08:21.988647"
+    },
+    {
+      "file": "t4g.2xlarge_bft.json",
+      "sha256": "e8d31a173d0ea8893f95a351ee5eec0812df39582b1477bf9be7478d78233880",
+      "size_bytes": 1498,
+      "modified": "2025-11-20T14:42:03.727086"
+    },
+    {
+      "file": "t4g.2xlarge_pos.json",
+      "sha256": "345bbbc621e34122963c9129e03f7b86a2031dc99f79b2b6cc2795e6e2a4340a",
+      "size_bytes": 1470,
+      "modified": "2025-11-20T14:36:31.820020"
+    },
+    {
+      "file": "t4g.2xlarge_pow.json",
+      "sha256": "63d264bf4cd3aaced89c4a83f48be2c6d9df251552e235793b6128d2e93654f8",
+      "size_bytes": 2570,
+      "modified": "2025-11-20T14:30:58.484740"
+    },
+    {
+      "file": "t4g.2xlarge_pow_gpu.json",
+      "sha256": "6f9d41d7f438af304ee56fe1036b2da6f4dbed6b2b699e7802609036a65773e3",
+      "size_bytes": 1171,
+      "modified": "2025-11-20T14:54:10.255267"
+    },
+    {
+      "file": "t4g.2xlarge_zk.json",
+      "sha256": "e7108b1a2acf936278c858309764da5d4d81f28d253b0cc4e7560486525f0537",
+      "size_bytes": 1553,
+      "modified": "2025-11-20T14:47:35.611770"
+    },
+    {
+      "file": "t4g.2xlarge_zk_cloudzk.json",
+      "sha256": "e96579a725211b34a44a216709fa9d7ed0d41a08d556da401410453d351e70d5",
+      "size_bytes": 1610,
+      "modified": "2025-11-20T14:53:07.519765"
+    },
+    {
+      "file": "t4g.micro_pos.json",
+      "sha256": "e68390b6ce4a6798fc8d6d3cfb0adfdd6947496744db14ba027041569cf330c4",
+      "size_bytes": 1326,
+      "modified": "2025-11-20T11:57:05.750453"
+    },
+    {
+      "file": "t4g.micro_pow.json",
+      "sha256": "377a7e0ae96b50d96a2664eaafb9738615ab99c8153057aec643e2af0b78e6fb",
+      "size_bytes": 877,
+      "modified": "2025-11-20T12:08:21.345028"
+    },
+    {
+      "file": "benchmark_progress.log",
+      "sha256": "b73e5a68be7d65ed9efccedac4b40b8e3b2807fbb75e5cb3d5afe11a2159ad29",
+      "size_bytes": 332039,
+      "modified": "2025-11-20T14:54:56.840016"
+    }
+  ]
+}

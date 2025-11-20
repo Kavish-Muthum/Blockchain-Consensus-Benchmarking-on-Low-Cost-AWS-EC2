@@ -1,0 +1,72 @@
+{
+  "region": "us-east-1",
+  "experimental_design": "minimal_differences",
+  "notes": "Selected instances to minimize extraneous variables. ARM and x86 have identical specs. GPU and FPGA normalized by vCPU.",
+  "instances": {
+    "t4g.small": {
+      "architecture": "arm64",
+      "category": "ARM",
+      "vCPU": 2,
+      "memory_gb": 2,
+      "network_performance": "Up to 5 Gigabit",
+      "ami_name_pattern": "al2023-ami-*-arm64",
+      "ami_owner": "amazon",
+      "estimated_tdp_watts": 6,
+      "hourly_cost_usd": 0.0168,
+      "notes": "Matches t3.small exactly (2 vCPU, 2GB RAM) - perfect ARM vs x86 comparison"
+    },
+    "t3.small": {
+      "architecture": "x86_64",
+      "category": "x86",
+      "vCPU": 2,
+      "memory_gb": 2,
+      "network_performance": "Up to 5 Gigabit",
+      "ami_name_pattern": "al2023-ami-*-x86_64",
+      "ami_owner": "amazon",
+      "estimated_tdp_watts": 7,
+      "hourly_cost_usd": 0.0208,
+      "notes": "Matches t4g.small exactly (2 vCPU, 2GB RAM) - perfect ARM vs x86 comparison"
+    },
+    "g4dn.xlarge": {
+      "architecture": "x86_64",
+      "category": "GPU",
+      "vCPU": 4,
+      "memory_gb": 16,
+      "gpu_count": 1,
+      "gpu_type": "NVIDIA T4",
+      "network_performance": "Up to 25 Gigabit",
+      "ami_name_pattern": "Deep Learning Base AMI (Ubuntu 20.04)*",
+      "ami_owner": "amazon",
+      "estimated_tdp_watts": 200,
+      "hourly_cost_usd": 0.526,
+      "notes": "Smallest GPU instance. Normalize by vCPU for comparison with ARM/x86. GPU power measured separately."
+    },
+    "f1.2xlarge": {
+      "architecture": "x86_64",
+      "category": "FPGA",
+      "vCPU": 8,
+      "memory_gb": 122,
+      "fpga_count": 1,
+      "fpga_type": "Xilinx Virtex UltraScale+ VU9P",
+      "network_performance": "Up to 10 Gigabit",
+      "ami_name_pattern": "*FPGA Developer AMI*",
+      "ami_owner": "679593333241",
+      "estimated_tdp_watts": 150,
+      "hourly_cost_usd": 1.65,
+      "notes": "Smallest FPGA instance. Normalize by vCPU for comparison. Requires Cloud-ZK AFI for ZK workloads."
+    }
+  },
+  "normalization_strategy": {
+    "arm_vs_x86": "Direct comparison - identical specs (2 vCPU, 2GB RAM)",
+    "gpu_vs_fpga": "Normalize by vCPU - both have different vCPU counts",
+    "all_instances": "Normalize all metrics by vCPU for cross-hardware comparison",
+    "confounding_variables": [
+      "GPU has 4 vCPU vs ARM/x86 2 vCPU - normalize by vCPU",
+      "FPGA has 8 vCPU vs ARM/x86 2 vCPU - normalize by vCPU",
+      "RAM differs (2GB vs 16GB vs 122GB) - workloads use <1GB to minimize impact",
+      "Network differs - not relevant for compute workloads",
+      "Instance families differ (burstable vs fixed) - monitor CPU credits"
+    ]
+  }
+}
+

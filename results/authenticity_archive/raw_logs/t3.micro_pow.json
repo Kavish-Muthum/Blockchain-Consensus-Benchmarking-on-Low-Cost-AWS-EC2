@@ -1,0 +1,33 @@
+{
+  "instance_type": "t3.micro",
+  "workload": "pow",
+  "instance_id": "i-04bbaa19d84b0e26a",
+  "public_ip": "18.206.92.8",
+  "measurement_start": "2025-11-20T18:06:50.899449",
+  "measurement_duration_seconds": 300,
+  "workload_output": {},
+  "metrics": {
+    "cloudwatch": [],
+    "gpu": [],
+    "fpga": [],
+    "memory": {},
+    "average_cpu_percent": 0,
+    "max_cpu_percent": 0
+  },
+  "energy_joules": 0.0,
+  "work_units_completed": 0,
+  "throughput_work_per_sec": 0.0,
+  "efficiency_joules_per_work": Infinity,
+  "instance_config": {
+    "architecture": "x86_64",
+    "category": "x86",
+    "vCPU": 2,
+    "memory_gb": 1,
+    "network_performance": "Up to 5 Gigabit",
+    "ami_name_pattern": "al2023-ami-*-x86_64",
+    "ami_owner": "amazon",
+    "estimated_tdp_watts": 6,
+    "hourly_cost_usd": 0.0104,
+    "notes": "Burstable performance instance with CPU credits"
+  }
+}

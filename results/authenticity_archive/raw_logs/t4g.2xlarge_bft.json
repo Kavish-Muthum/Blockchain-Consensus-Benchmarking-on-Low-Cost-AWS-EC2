@@ -1,0 +1,51 @@
+{
+  "instance_type": "t4g.2xlarge",
+  "workload": "bft",
+  "instance_id": "i-0555d26cd56a6ca02",
+  "public_ip": "34.224.26.127",
+  "measurement_start": "2025-11-20T20:36:33.012800",
+  "measurement_duration_seconds": 300,
+  "workload_output": {
+    "work_unit": "round",
+    "total_count": 52444791,
+    "measurement_duration_seconds": 300.00000500679016,
+    "rounds_per_second": 174815.9670824438,
+    "nodes": 4,
+    "byzantine_tolerance": 1,
+    "message_size_bytes": 1024,
+    "measurement_start": 1763671023.7255824,
+    "measurement_end": 1763671323.7255874
+  },
+  "metrics": {
+    "cloudwatch": [],
+    "gpu": [],
+    "fpga": [],
+    "memory": {
+      "total_mb": 31681,
+      "used_mb": 207,
+      "free_mb": 31065,
+      "usage_percent": 0.6533884662731606
+    },
+    "average_cpu_percent": 0,
+    "max_cpu_percent": 0,
+    "memory_usage_percent": 0.6533884662731606,
+    "memory_used_mb": 207,
+    "memory_total_mb": 31681
+  },
+  "energy_joules": 0.0,
+  "work_units_completed": 52444791,
+  "throughput_work_per_sec": 174815.97,
+  "efficiency_joules_per_work": 0.0,
+  "instance_config": {
+    "architecture": "arm64",
+    "category": "ARM",
+    "vCPU": 8,
+    "memory_gb": 32,
+    "network_performance": "Up to 5 Gigabit",
+    "ami_name_pattern": "al2023-ami-*-arm64",
+    "ami_owner": "amazon",
+    "estimated_tdp_watts": 24,
+    "hourly_cost_usd": 0.2688,
+    "notes": "Matches t3.2xlarge exactly (8 vCPU, 32GB RAM) - perfect ARM vs x86 comparison. Burstable performance instance."
+  }
+}

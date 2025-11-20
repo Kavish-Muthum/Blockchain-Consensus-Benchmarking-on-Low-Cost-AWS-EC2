@@ -1,0 +1,54 @@
+{
+  "warmup_seconds": 30,
+  "measurement_seconds": 300,
+  "workloads": {
+    "pow": {
+      "name": "Proof of Work (SHA-256)",
+      "work_unit": "hash",
+      "difficulty_target": "00000",
+      "block_template": "BlockTemplate_2024_Benchmark_Consensus_Research",
+      "single_threaded": true,
+      "notes": "Fixed difficulty target for consistent workload across instances"
+    },
+    "pos": {
+      "name": "Proof of Stake (Signature Verification)",
+      "work_unit": "signature",
+      "algorithm": "ed25519",
+      "key_size": 256,
+      "message_size_bytes": 256,
+      "notes": "Pre-generated test messages and signatures for consistency"
+    },
+    "bft": {
+      "name": "Byzantine Fault Tolerance (PBFT)",
+      "work_unit": "round",
+      "node_count": 4,
+      "byzantine_tolerance": 1,
+      "message_size_bytes": 1024,
+      "notes": "Simulated PBFT consensus with fixed node count and message sizes"
+    },
+    "zk": {
+      "name": "Zero-Knowledge Proofs (ZK-SNARK)",
+      "work_unit": "proof",
+      "circuit_size": 100,
+      "input_size": 32,
+      "notes": "Simple arithmetic circuit for proof generation"
+    },
+    "zk_cloudzk": {
+      "name": "Zero-Knowledge Proofs (ZK-SNARK) with Cloud-ZK FPGA",
+      "work_unit": "proof",
+      "circuit_size": 100,
+      "input_size": 32,
+      "cloudzk_afi_id": "",
+      "notes": "Uses Cloud-ZK toolkit for BLS12-377 MSM acceleration on FPGA. Requires Cloud-ZK AFI loaded on F1 instances."
+    },
+    "pow_gpu": {
+      "name": "Proof of Work (SHA-256) GPU-Accelerated",
+      "work_unit": "hash",
+      "difficulty_target": "00000",
+      "block_template": "BlockTemplate_2024_Benchmark_Consensus_Research",
+      "batch_size": 1048576,
+      "notes": "GPU-optimized SHA-256 mining using PyCUDA/CuPy for parallel computation. Requires NVIDIA GPU and CUDA. Falls back to CPU if GPU unavailable."
+    }
+  }
+}
+
